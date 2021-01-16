@@ -1,0 +1,53 @@
+<html>
+ <!-- 
+ Autor:EQUIPO COCOMS
+ Fecha:09/05/2020
+ Funcion: CAPTURA UNIDAD DE ARTICULOS PARA REPORTE -->
+<head>
+   <CENTER><img src=https://elabcdelmarketing.com/wp-content/uploads/2017/06/tienda-online-banner.png width=800 height=180></CENTER>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   <title>Tienda Chocho</title>
+   <link rel="stylesheet" type="text/css" href="../bootstrap-tour/css/bootstrap-tour-standalone.min.css">
+   <script src="../jquery/jquery-1.8.2.min.js"></script>
+   <script src="../bootstrap-tour/js/bootstrap-tour-standalone.min.js"></script>
+   <script src="../ayuda/Ayudareporte.js"></script>
+</head>
+<body style='background-color:#EFEFEF;'>
+<center><h1>Listado de Reportes</h1></center>
+
+<form action= chocho_reporte.php method=POST>
+<p></p>
+<center>
+<table border = 1 > <h3>Reporte de artículos</h3>
+<p></p>
+<tr>
+<th> Generar Reporte x Unidad <th align = center><div id="ayuunidad"><select name=unidad>
+<option value=0>Kilo </option>
+<option value=1>Pieza</option>
+<option value=2>Gramos</option>
+</selected></div> <br>
+<tr>
+</table>
+</center>
+<p></p>
+<center>
+<table>
+<tr>
+<td><div id="ayuenviar"><input type=submit ></div>
+<td align = center><div id="ayuborrar"><input type = reset></div>
+</form>
+<tr>
+</table>
+<td> 
+
+<center><div>Click para obtener<div id="ayudatour" button onclick="Ayudareporte();"><b><u>Ayuda</u></b>  
+</div></div></center>
+<br>
+ 
+
+
+Para regresar a la p&aacutegina principal<BR>
+HAGA CLICK EN <a href=tiendas_chocho.php>REGRESAR</a>
+</center>
+</body>
+</html>

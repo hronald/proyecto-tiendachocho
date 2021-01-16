@@ -1,0 +1,44 @@
+<html>
+
+ <!-- 
+ Autor:EQUIPO COCOMS
+ Fecha:09/05/2020
+ Funcion: CAPTURA FOLIO DE ARTICULOS PARA BAJA -->
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Tiendas Chocho</title>
+  <link rel="stylesheet" type="text/css" href="../bootstrap-tour/css/bootstrap-tour-standalone.min.css">
+  <script src="../jquery/jquery-1.8.2.min.js"></script>
+  <script src="../bootstrap-tour/js/bootstrap-tour-standalone.min.js"></script>
+  <script src="../ayuda/Ayudabajas.js"></script>
+</head>
+<CENTER><img src=https://elabcdelmarketing.com/wp-content/uploads/2017/06/tienda-online-banner.png width=800 height=180></CENTER>
+<body style='background-color:#EFEFEF;'>
+<center><h1>Sistema de Bajas</h1></center>
+<form action= chocho_bajas.php method=POST>
+<p></p>
+<center>
+<table border = 1 > <h3>Bajas de artículo por n&uacutemero de producto</h3>
+<p></p>
+<tr>
+<td>Clave del producto: <td><div id="ayudaclave"><input type=text name=clave_producto style="width:100px"></div>
+<tr>
+</table> </center>
+<p></p>
+<center>
+<table>
+<tr>
+<td><div id="ayudaborrar"><input type=submit ></div>
+<td align = center><div id="ayudalimpiar"><input type = reset></div>
+</table> </center>
+</form>
+<center>
+<center><div>Click para obtener<div id="ayudatour" button onclick="Ayudabajas();"><b><u>Ayuda</u></b>  
+</div></div></center>
+<br>
+Para regresar a la p&aacutegina principal<BR>
+HAGA CLICK EN <a href=tiendas_chocho.php>REGRESAR</a>
+</center>
+</body>
+</html>

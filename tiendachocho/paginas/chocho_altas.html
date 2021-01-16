@@ -1,0 +1,59 @@
+<html>
+
+ <!-- 
+ Autor:EQUIPO COCOMS
+ Fecha:09/05/2020
+ Funcion: CAPTURA ALTAS DE ARTICULOS -->
+<head>
+   <CENTER><img src=https://elabcdelmarketing.com/wp-content/uploads/2017/06/tienda-online-banner.png width=800 height=180></CENTER>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   <title>Tienda Chocho</title>
+   <link rel="stylesheet" type="text/css" href="../bootstrap-tour/css/bootstrap-tour-standalone.min.css">
+   <script src="../jquery/jquery-1.8.2.min.js"></script>
+   <script src="../bootstrap-tour/js/bootstrap-tour-standalone.min.js"></script>
+   <script src="../ayuda/Ayudaaltas.js"></script>
+</head>
+
+<body style='background-color:#EFEFEF;'>
+<center><h1>Altas de Artículos</h1></center>
+<form action= chocho_altas.php method=POST>
+<p></p>
+<center>
+<table border = 1 > DATOS DEL ARTICULO
+<p></p>
+<tr>
+<td>Clave <td><div id="ayudaclave"><input type=number name=clave></div>
+<tr>
+<td>Nombre <td><div id="ayudanombre"><input type=text name=nombre></div>
+<tr>
+<td>Marca <td><div id="ayudamarca"><input type=text name=marca></div>
+<tr>
+<td>Unidad<td align = center><div id="ayudaunidad"><select name= unidad style="width:170px" > 
+<option value=0>Kilo</option>
+<option value=1>Pieza</option>
+<option value=2>Gramos</option>
+</selected></div> <br>
+<tr>
+<tr>
+<td>Perecedero<td><div id="ayudaperecedero"><input type=text name=perecedero></div>
+<tr>
+<td>Cantidad<td><div id="ayudacantidad"><input type=number name=cantidad></div>
+<tr>
+<td>Precio<td><div id="ayudaprecio"><input type=number name=precio></div>
+</table> </center>
+<center>
+<table>
+<tr>
+<td><div id="ayudaenviar"><input type=submit >
+<td align = center></div><div id="ayudaborrar"><input type = reset></div>
+</table> </center>
+</form>
+<center>
+<center><div>Click para obtener<div id="ayudatour" button onclick="Ayudaaltas();"><b><u>Ayuda</u></b>  
+</div></div></center>
+<br>
+Para regresar a la p&aacutegina principal<BR>
+HAGA CLICK EN <a href=tiendas_chocho.php>REGRESAR</a>
+</center>
+</body>
+</html>

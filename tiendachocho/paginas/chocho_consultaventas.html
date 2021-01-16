@@ -1,0 +1,44 @@
+<html>
+
+
+ <!-- 
+ Autor:EQUIPO COCOMS
+ Fecha:09/05/2020
+ Funcion: CAPTURA FOLIO DE VENTA PARA CONSULTA -->
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Tiendas Chocho</title>
+  <link rel="stylesheet" type="text/css" href="../bootstrap-tour/css/bootstrap-tour-standalone.min.css">
+  <script src="../jquery/jquery-1.8.2.min.js"></script>
+  <script src="../bootstrap-tour/js/bootstrap-tour-standalone.min.js"></script>
+  <script src="../ayuda/Ayudaconsultaventas.js"></script>
+</head>
+<CENTER><img src=https://elabcdelmarketing.com/wp-content/uploads/2017/06/tienda-online-banner.png width=800 height=180></CENTER>
+<body style='background-color:#EFEFEF;'>
+<center><h1>Consulta de ventas</h1></center>
+<form action= chocho_consultaventas.php method=POST>
+<p></p>
+<center>
+<table border = 1 > <h3>Reporte de ventas por folio</h3>
+<p></p>
+<tr>
+<td>Folio venta:<td><div id="ayudafolio"><input type=text name=folio_venta></div>
+<tr>
+</table> </center>
+<p></p>
+<center>
+<table>
+<tr>
+<td><div id="ayudaconsulta"><input type=submit ></div>
+<td align = center><div id="ayudalimpiar"><input type = reset></div>
+</table> </center>
+</form>
+<center>
+<center><div>Click para obtener<div id="ayudatour" button onclick="Ayudaconsultaventas();"><b><u>Ayuda</u></b>  
+</div></div></center>
+ <br>
+Para regresar a la p&aacutegina principal<BR>
+HAGA CLICK EN <a href=tiendas_chocho.php>REGRESAR</a>
+</center>
+</body>
+</html>
